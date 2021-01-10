@@ -1,0 +1,25 @@
+﻿  MyStringClass.cpp
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(7,10): error C2440: 'default argument': cannot convert from 'const char [1]' to 'char *'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(7,10): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(22,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(23,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(29,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(37,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(38,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(46,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(47,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(53,21): error C2664: 'str_type::str_type(const str_type &)': cannot convert argument 1 from 'const char [6]' to 'char *'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(53,13): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(7,2): message : see declaration of 'str_type::str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(53,33): error C2664: 'str_type::str_type(const str_type &)': cannot convert argument 1 from 'const char [6]' to 'char *'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(53,25): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(7,2): message : see declaration of 'str_type::str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(53,36): error C2248: 'str_type::str_type': cannot access private member declared in class 'str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(7): message : see declaration of 'str_type::str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(4): message : see declaration of 'str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(54,11): error C2248: 'str_type::operator +': cannot access private member declared in class 'str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(18): message : see declaration of 'str_type::operator +'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(4): message : see declaration of 'str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(54,11): error C2248: 'str_type::operator =': cannot access private member declared in class 'str_type'
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(27): message : see declaration of 'str_type::operator ='
+D:\Visual\Projects\MyStringClass\MyStringClass.cpp(4): message : see declaration of 'str_type'
